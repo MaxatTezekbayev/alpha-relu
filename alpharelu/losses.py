@@ -48,7 +48,7 @@ class ReLU15LossFunction(Function):
     @staticmethod
     @custom_bwd
     def backward(ctx, grad_output):
-        p_star = ctx.saved_tensors 
+        p_star,  = ctx.saved_tensors 
         grad = grad_output.unsqueeze(1) * p_star
         ret = (grad,)
 
