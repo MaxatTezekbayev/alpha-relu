@@ -1,4 +1,4 @@
-__version__ = "1.0"
+__version__ = "1.01"
 
 from alpharelu.activations import relu15, ReLU15
 
