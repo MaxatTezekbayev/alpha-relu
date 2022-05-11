@@ -4,6 +4,8 @@ This package provides a pytorch implementation of α-ReLU and α-ReLU loss for �
 
 *Requirements:* python 3, pytorch >= 1.0
 
+The library based on the implementation of [entmax](https://github.com/deep-spin/entmax)
+
 ## Example
 
 ```python
